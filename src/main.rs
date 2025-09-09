@@ -12,7 +12,7 @@ use base64::Engine as _;
 use shuttle_runtime::SecretStore;
 
 async fn hello_world() -> &'static str {
-    "Hello, world!"
+    "Hello, world1!"
 }
 
 async fn read_sub() -> impl IntoResponse {
